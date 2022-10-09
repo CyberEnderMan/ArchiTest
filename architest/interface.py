@@ -79,7 +79,7 @@ class Interface(Core):
         elif 9 >= self.points_sum > 6:
             result_mark = tk.Label(frame, text='Хорошо', bg='#4D8802', fg="white", font=("Arial", 17))
         elif self.points_sum == 10:
-            result_mark = tk.Label(frame, text='Отлично', bg='cyan', fg="white", font=("Arial", 17))
+            result_mark = tk.Label(frame, text='Отлично', bg='#1EC9E8', fg="white", font=("Arial", 17))
 
         result_title.place(relx=0.5, rely=0.4, width=400, height=100, anchor="center")
         result_points.place(relx=0.5, rely=0.6, width=150, height=50, anchor="center")
