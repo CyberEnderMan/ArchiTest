@@ -1,6 +1,4 @@
-import core
 from interface import Interface
-from core import Core
 
 
 def main():
